@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pennington_Aaron_MIS577</title>
+
+    <!-- MIS577 Keller Online Week 4
+
+      Session Date - May 22, 2016
+
+      Date Milestone submitted
+
+      Week 4
+
+-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    
+    <script src="sketch.js" type="text/javascript"></script>
+    
+    <!--<style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>-->
+    
+    <script type="text/css">
+      .jumbotron {
+        background-color: #ff3600;
+      }
+    </script>
+
+    <script type="text/javascript">
+      <!--
+      var name;
+      var now = new Date(); // current date and time
+      var hour = now.getHours(); // current hour (0-23)
+      
+      document.write("<div class='container-fluid'><p id='canvasP'></p></div>");
+
+      document.writeln("<div class='jumbotron' style='background-color:rgb(90, 42, 172); color:white;' >");
+
+      // read the name from the prompt box as a string
+      name = window.prompt( "Please enter your name", "Prince");
+
+      document.writeln( "<img src='https://images.encyclopediadramatica.se/1/18/Princesymbol.png' class='img-responsive' width=20% align='right' style='vertical-align: text-top;'/>" )
+
+      document.writeln( "<h1 style='margin-left:8%;'>My site</h1>" )
+
+      // determine whether it is morning
+      if ( hour < 12 )
+        document.write( "<h2 style='margin-left: 8%'>Good Morning " )
+
+      if ( hour >= 12 )
+      {
+        // convert to a 12-hour clock
+        hour = hour - 12;
+
+        // determine whether it is before 6 PM
+        if ( hour < 6 )
+          document.write( "<h2 style='margin-left: 8%'>Good Afternoon " );
+
+        if ( hour >= 6 )
+          document.write( "<h2 style='margin-left: 8%'>Good Evening " )
+      } // end if
+
+      document.writeln( name + ", welcome to my site</h2></div>" );
+      // -->
+
+      // document.writeln("");
+      </script>
+
+  </head>
+  <body style="background-color: rgb(90, 42, 172)">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Week 4 of Prince Homage <span class="glyphicon glyphicon-thumbs-up"></span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="glyphicon glyphicon-king"></span></a></li>
+            <li><a href="#about">About <span class="glyphicon glyphicon-knight"></span></a></li>
+            <li><a href="#contact">Contact <span class="glyphicon glyphicon-earphone"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="panel-body">
+      <div class="container-fluid"><p id="canvasP"></p></div>
+      <div class="container-fluid"><h1 id="about">About</h1>
+            <p>This page is about how many times I can reference Prince. About three times this week. </p>
+      </div>
+      <div class="container">
+            <img src="http://i2.cdn.turner.com/cnnnext/dam/assets/160421130935-restricted-04-prince-file-super-169.jpg" class="img-responsive"/>
+      </div>
+      <div class="container-fluid"><h1 id="contact">Contact</h1>
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="comment">Comment:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="5" id="comment" placeholder="What's up?">
+                </textarea>
+              </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-send"></span></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="panel-footer" style="background-color: rgb(150, 150, 150); text-align:center; ">Pennington_Aaron_MIS577</div>
+  </body>
+</html>
